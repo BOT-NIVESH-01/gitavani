@@ -1,0 +1,35 @@
+# --- Environment Configurations ---
+.env
+.env.local
+.env.*.local
+
+# --- Local Databases & Storage ---
+gita_vectordb/
+*.db
+*.sqlite
+
+# --- Dynamic System Audio Buffers ---
+voice_job_*.ogg
+response_*.mp3
+temp_voice.mp3
+user_input.ogg
+response.mp3
+bg_flute.mp3
+
+# --- System Executables & Binaries ---
+ffmpeg.exe
+ffprobe.exe
+ffplay.exe
+ffmpeg/
+ffmpeg-*.zip
+ffmpeg-*/
+
+# --- Python Environment & Caches ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.celery/
